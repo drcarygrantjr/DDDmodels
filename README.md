@@ -6,7 +6,7 @@ The DDD model for natural catchments has been used operationally at the Flood Fo
 
 DDDurban is very much based on the DDD model, but the model calculates rainfall-runoff separately for permeable- and impermable areas. In addition, infiltration capacity is specified in the parameterfile. 
 
-DDD-Design is based on DDDUrban but  is a stochastic model and is but  
+DDD-Design is based on DDDUrban but is a stochastic model intended used for obtaining design values. In this model subsurface saturation state, extreme precipitation, and temporal distribution of extreme precipitation are drawn from an Exponential distribuiton, a General Pareto Distribution (GPD) and a Beta distribion respectively. This model start simulating runoff from drawn states and can hence simulate short time series (twice the concentration time of the catchment) the sufficient numbe of times to estiate an extremevalue distribution of runoff.   
 
 The files located at this repository site should let you run the models for the sample catchments located in each model directory. The models have a lot of common subroutines we can be downloaded from a dedicated directoty. There are main Juliascripts in Jupyter note book format "Run_DDD*.r" for each model (the * signifies which model) whcih loads the necessary subroutines In the "Run.." scripts you can set various controls, so that you can run and calibrate the models (for DDD model and DDDUrban). Not all of these controls are fully operational since the development of the models are ongoing projects. Running the DDD model and DDDUrban (kal=0) and calibrating (kal=1) work fine.
 
