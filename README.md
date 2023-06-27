@@ -10,7 +10,7 @@ DDD-Design is based on DDDUrban but is a stochastic model intended used for obta
 
 The files located at this repository should let you run the models for the sample catchments located in each model directory.  The models have a lot of common subroutines we can be downloaded from the dedicated DDDFunctions directory. There are main Juliascripts in Jupyter notebook format, "Run_DDD* " for each model (the * signifies which model) which loads the necessary subroutines. NOTE that you need, of course, to change all the paths in the "Run.." scripts. In the "Run.." scripts you can set various controls, so that you can run and calibrate the models (for DDD model and DDDUrban). Not all of these controls are fully operational since the development of the models are ongoing projects. Running the DDD model and DDDUrban (kal=0) and calibrating (kal=1) work fine. In each model directory there are "getting started" documents which may or may not be completely updated, but will, nevertheless, help you to get the model running. In addition, you will find example files of parameterfiles, and input- and outputfiles. 
 
-If you do not want to download the entire repository, just a folder, this will do the job : https://download-directory.github.io/
+If you do not want to download the entire repository, just a folder, this will do the job: https://download-directory.github.io/
 
 ###References
 * Skaugen T. and C. Onof, 2014. A rainfall runoff model parameterized form GIS and runoff data. Hydrol. Process. 28, 4529-4542,DOI:10.1002/hyp.9968
