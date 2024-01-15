@@ -4,7 +4,7 @@ Rainfall-runoff models based on Distance Distribution Dynamics (DDD) have been d
 
 The DDD model for natural catchments has been used operationally at the Flood Forecasting Service at the Norwegian Water Resources and Energy Directorate since 2013. 
 
-DDDurban is very much based on the DDD model, but the model calculates rainfall-runoff separately for permeable- and impermable areas. In addition, infiltration capacity is specified in the parameterfile. 
+DDDurban is very much based on the DDD model, but the model calculates rainfall-runoff separately for permeable- and impermable areas. In addition, infiltration capacity is specified in the parameterfile. A report on the simulation of all NVE's urban runoff sttsions can be found here https://publikasjoner.nve.no/rapport/2023/rapport2023_34.pdf
 
 DDD-Design is based on DDDUrban but is a stochastic model intended used for obtaining design values. In this model subsurface saturation state, extreme precipitation, and temporal distribution of extreme precipitation are drawn from an Exponential distribution, a General Pareto distribution (GPD) and a Beta distribution respectively. This model simulates runoff from drawn states and can hence simulate short time series (of length twice the concentration time of the catchment) the sufficient number of times to estimate an extremevalue distribution of runoff.   
 
